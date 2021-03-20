@@ -1,0 +1,470 @@
+#wrapper{
+	float:left;
+	width:70%;
+}
+
+#rightWrapper{
+	width:30%;
+	background-color:#F0EFED;
+	float:left;
+	height:100%;
+	box-sizing: border-box;
+	font:Helvetica,Arial,sans-serif;
+	padding-bottom:500px;
+	
+	/* padding-bottom:700px; */
+}
+#rightWrapper  div{
+	background-color:white;
+	width:250px;
+	margin-left:20px;
+	margin-top:50px;
+	padding-top:5px;
+	padding-right:20px;
+	padding-left:	20px;
+	font-family:"Neue Helvetica W05",Helvetica,Arial,sans-serif
+	
+	
+}
+
+#Pageno{
+	display:inline;
+	color:black;
+	margin-left:50%;
+	font-family:"courier";
+	border:1px solid black;
+	background-color:black;
+	color:white;
+	font-weight:bold;
+	padding:7.5px 12px;
+	border-radius:50px;
+}
+#main-content div{
+	margin-bottom:500px;
+	
+}
+.edit{
+	
+	font-size:0.9em;
+	line-height: 25px;
+	
+}
+.total{
+	margin-top:20px;
+	border-top:1px solid #f0efed;
+	padding-bottom:10px;
+	font-weight:bold;
+}
+li:not(.head) span.right{
+	font-size:15px;
+}
+
+li:not(.head) span{
+	font-size:14px;
+	line-height:30px;
+}
+li .right:not(.edit){
+	font-weight: 600;
+}
+
+#rightWrapper ul{
+	list-style:none;
+	padding:0;
+}
+#rightWrapper li{
+	color:#666666;
+	vertical-align:middle;
+}
+
+#lihead{
+	font-weight:400;
+	font-size:20px;
+	
+	
+}
+
+.head{
+	padding-bottom:50px;
+	
+}
+
+
+/* #rightWrapper li span:not(.right){ */
+/* font-weight:400; */
+/* font-size:1.2em */
+/* } */
+
+#rightWrapper li .right{
+	float:right;
+}
+body{
+	padding:0;
+	margin:0;
+}
+#header{
+	margin:auto 0 0 auto;
+	border-bottom:4px solid black;
+	text-align:center;
+	overflow:hidden;
+}
+
+#footer{
+	text-align:center;
+	margin: 0 auto;
+	background-color:#222;
+	border:1px solid black;
+	width:100%;
+	
+	
+}
+.footericon{
+	
+	height: 60px;
+    width: 60px;
+    display: inline;
+	
+	
+}
+
+.edit{
+	font-size:0.8em;
+	text-decoration:underline;
+	cursor:pointer;
+}
+
+#footer img{
+	margin:20px;
+	vertical-align:middle;
+	cursor:pointer;
+}
+#footer span{
+	font-family:"Courier";
+	font-size:1.8em;
+	color:white;
+	display:inline;
+	margin-right:20px;
+	
+}
+
+
+#main-content{
+	margin: 0 auto;
+	
+	height:auto;
+	
+}
+#main-content table{
+	text-align:left;
+}
+
+#main-content  div{
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	margin-bottom:0;
+	height:auto;
+	
+	
+}
+.checkbox td input{
+	vertical-align:bottom;
+	margin-right:7px;
+}
+.checkbox td{
+	line-height:20px;
+	color:#666
+}
+.checkbox{
+	margin-bottom:20px;
+}
+table th{
+	
+	font-family:"Courier";
+}
+table{
+	
+	margin-top:5px;
+	margin-bottom:5px;
+	text-align:left;
+	margin-left:auto; 
+    margin-right:auto;
+	
+}
+#main-content div{
+	
+}
+#main-content div table{
+	width:50%;
+}
+
+table tr{
+	height:35px;
+}
+
+td{
+	font-family:"Candara";
+	font-size:0.91em;
+	
+}
+.foot{
+	font-family:"Courier";
+	font-size:01em;
+	font-weight:bold;
+	border:1px dotted black;
+	
+	border-right:none;
+	border-left:none;
+}
+.top1{
+	border-top:2px solid black;
+	border-bottom:2px solid black
+}
+.button td{
+	text-align:right;
+}
+.button{
+	height:100px;
+}
+
+.button button{
+	height:40px;
+	width:66%;
+	padding: 0 24px;
+    font-size: 12px;
+    line-height: 36px;
+	border-color: #222;
+    background: #222;
+    color: #fff;
+    letter-spacing: 1px;
+	font-family: "Neue Helvetica W05",Helvetica,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+	cursor:pointer;
+}
+.errorNoShow{	
+	display:none;
+}
+.errorShow{
+	
+}
+input:not(.checkbox){
+	
+	
+}
+#main-content select{
+	height: 36px;
+	padding: 5px 48px 5px 16px;
+}
+#trhead{
+	font-size:1.5em;
+	margin-bottom:20px;
+	font-family:"Candara";
+	margin-left:30%
+}
+#main-content div{
+	
+}
+
+td span:not(.req){
+	font-size:1.1em;
+	font-weight:bold;
+}
+.req{
+	margin-left:10px;
+	font-size:0.9em;
+	color:#666;
+}
+img.delete {
+	
+	height:20px;
+	width:17px;
+	cursor:pointer;
+}
+.no{
+	border:none;
+	width:25px;
+}
+td{
+	height:29px;
+}
+#main-content input:not(.Rowinput):not(.check){
+	vertical-align:middle;
+	text-align:left;
+	height:30px;
+	width:95%;
+	border:1px solid black;
+	outline:none;
+	color:black;
+	font-family:"Tahoma";
+}
+.check{
+	height:15px;
+	width:15px;
+}
+.check:checked{
+	background-color:#666;
+	color:white
+}
+.Rowinput{
+	width:97.5%;
+	vertical-align:middle;
+	text-align:left;
+	height:30px;
+	
+	border:1px solid black;
+	outline:none;
+	color:black;
+	font-family:"Tahoma";
+}
+
+.AddCart{
+	
+	background-color:none;
+	outline:none;
+	border-radius:20px;
+	font-family:"Courier";
+	background-color:#efefef;
+	height:40px;
+	width:150px;
+	font-size:15px;
+	border:1px solid #efefef;
+	box-shadow:0px 0px 50px 5px #efefef; 
+	color:#000;
+}
+
+.desc{
+	
+	font-family:"Courier";
+	font-weight:bold;
+	color:#fff;
+}
+
+
+
+
+#headdiv{
+	text-align:center;
+	
+}
+#headDiv h1{
+	font-family: Yu Gothic Light;
+	font-size:4em;
+	color:black;
+	display:inline;
+}
+
+
+
+#headDiv input{
+	float:left;
+	margin-left:50px;
+	margin-top:30px;
+	height:20px;
+	width:260px;
+	border-radius:5px;
+	border:2px solid black;
+	
+	outline:none;
+	
+	
+	background-image: url('../search.png');
+	background-repeat: no-repeat;
+	background-size: 14px;
+	
+	background-position: 98% 60%;
+	font-size:0.7em;   
+}
+#header div{
+	margin-right:50px;
+	
+}
+
+p img{
+	margin-right:3px;
+}
+
+.left{
+	float:left;
+	margin-left:40px;
+}
+.right{
+	float:right;	
+}
+.tab span{
+	vertical-align:middle;
+	margin-left:2px;
+}
+
+#headDiv p.tab{
+	
+	
+	color:black;
+font-family:"Tahoma";	
+
+margin-top:30px;
+display:block	;
+
+vertical-align:middle;background-size: 14px;
+margin-right:50px;
+margin-top:30px;
+display:block;
+opacity:0.4;
+font-size:1.08em;
+
+}
+#headerRibbon{
+font-family:Tahoma;
+height:auto;
+width:auto;
+background-color:white;
+overflow:hidden;
+text-align:center;
+vertical-align:middle
+}
+#headerRibbon p{
+vertical-align:middle;
+color:black;
+font-size:1.3em;
+font-family:"Tahoma";
+
+}
+#headerRibbon img{
+vertical-align:middle;
+}
+
+
+#selected{
+font-weight:bold;
+border-bottom:2px solid white;
+overflow:hidden;
+
+}
+#headDiv p:hover{
+opacity:1;
+}
+.icon{
+
+height: 30px;
+width: 30px;
+display: inline;
+vertical-align:middle;
+}
+.icon2{
+height: 24px;
+width: 20px;
+display: inline;
+vertical-align:middle;
+}
+
+.productSummaryImg{
+height:120px;
+width:120px;
+vertical-align:middle;
+}
+
+
+body a{
+text-decoration:none;
+}

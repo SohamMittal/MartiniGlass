@@ -1,0 +1,299 @@
+body{
+	padding:0;
+	margin:0;
+}
+#header{
+	margin:auto 0 0 auto;
+	border-bottom:4px solid black;
+	text-align:center;
+	overflow:hidden;
+}
+
+#footer{
+	text-align:center;
+	margin: 0 auto;
+	background-color:#222;
+	border:1px solid black;
+	width:100%;
+	
+	
+}
+.footericon{
+	
+	height: 60px;
+    width: 60px;
+    display: inline;
+	
+	
+}
+
+.edit{
+	font-size:0.8em;
+	text-decoration:underline;
+	cursor:pointer;
+}
+
+#footer img{
+	margin:20px;
+	vertical-align:middle;
+	cursor:pointer;
+}
+#footer span{
+	font-family:"Courier";
+	font-size:1.8em;
+	color:white;
+	display:inline;
+	margin-right:20px;
+	
+}
+
+
+#main-content{
+	margin: 0 auto;
+	text-align:center;
+	height:auto;
+	
+}
+
+#main-content  div{
+	margin:0 auto;
+	height:auto;
+	
+	
+}
+table th{
+	border-bottom:1px solid black;
+	padding-bottom:10px;
+	font-size:1.2em;
+	font-family:"Courier";
+}
+table{
+	
+	margin-top:5px;
+	margin-bottom:5px;
+	border:1px solid black;
+	margin-left:auto; 
+    margin-right:auto;
+	border-collapse: separate;
+	border-spacing: 50px;
+}
+#main-content div{
+	
+}
+#main-content div table{
+	width:80%;
+}
+
+
+
+td{
+	font-family:"Candara";
+	font-size:0.91em;
+}
+.foot{
+	font-family:"Courier";
+	font-size:01em;
+	font-weight:bold;
+	border:1px dotted black;
+	
+	border-right:none;
+	border-left:none;
+}
+.top1{
+	border-top:2px solid black;
+	border-bottom:2px solid black
+}
+
+td.right{
+	
+}
+img.delete {
+	
+	height:20px;
+	width:17px;
+	cursor:pointer;
+}
+.no{
+	border:none;
+	width:25px;
+}
+td{
+	height:29px;
+}
+#main-content input{
+	vertical-align:middle;
+	text-align:center;
+	height:25px;
+	width:40px;
+	border-radius: 5px;
+	border:1px solid black;
+	outline:none;
+	color:black;
+	font-family:"Tahoma";
+}
+.AddCart{
+	
+	background-color:none;
+	outline:none;
+	border-radius:20px;
+	font-family:"Courier";
+	background-color:#efefef;
+	height:40px;
+	width:150px;
+	font-size:15px;
+	border:1px solid #efefef;
+	box-shadow:0px 0px 50px 5px #efefef; 
+color:#000;
+}
+
+.desc{
+	
+	font-family:"Courier";
+	font-weight:bold;
+	color:#fff;
+}
+
+
+
+
+#headdiv{
+text-align:center;
+
+}
+#headDiv h1{
+	font-family: Yu Gothic Light;
+	font-size:4em;
+	color:black;
+	display:inline;
+}
+
+
+
+#headDiv input{
+	float:left;
+	margin-left:50px;
+	margin-top:30px;
+	height:20px;
+	width:260px;
+	border-radius:5px;
+	border:2px solid black;
+	padding-left:10px;
+	outline:none;
+	
+	
+	background-image: url('../search.png');
+	background-repeat: no-repeat;
+	background-size: 14px;
+	
+	background-position: 98% 60%;
+	font-size:0.7em;   
+}
+#header div{
+	margin-right:50px;
+	
+}
+#headDiv p{
+	
+	
+}
+p img{
+	margin-right:3px;
+}
+
+.left{
+	float:left;
+	margin-left:40px;
+}
+.right{
+	float:right;	
+}
+.tab span{
+	vertical-align:middle;
+	margin-left:2px;
+}
+
+#headDiv p.tab{
+	
+	
+	color:black;
+	font-family:"Tahoma";	
+	
+	margin-top:30px;
+	display:block	;
+	
+	vertical-align:middle;background-size: 14px;
+	margin-right:50px;
+	margin-top:30px;
+	display:block;
+	opacity:0.4;
+	font-size:1.08em;
+	
+}
+#headerRibbon{
+	font-family:Tahoma;
+	height:auto;
+	width:auto;
+	background-color:black;
+	overflow:hidden;
+	text-align:center;
+}
+#headerRibbon p{
+	color:white;
+	font-size:01em;
+}
+
+body ul{
+	list-style:none;
+	float:left;
+	
+}
+
+#selected{
+	font-weight:bold;
+	border-bottom:2px solid white;
+	overflow:hidden;
+	
+}
+#headDiv p:hover{
+	opacity:1;
+}
+.icon{
+	
+	height: 30px;
+    width: 30px;
+    display: inline;
+	vertical-align:middle;
+}
+
+.productSummaryImg{
+	height:120px;
+	width:120px;
+	vertical-align:middle;
+}
+
+ul li{
+	cursor:pointer;
+}
+body ul li{
+	text-align:center;
+	float:left;	
+	font-family:Bahnschrift Light;	
+	padding:0 2px;
+	padding-bottom:5px;
+	margin-right:44px;	
+	color:white;
+}
+ul a:link{
+	color:white;
+}
+ul a:visited{
+	color:white;
+}
+body a{
+	text-decoration:none;
+}
+
+body ul li:hover{
+	border-bottom:2px solid white;
+	overflow:hidden;
+}

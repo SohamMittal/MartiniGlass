@@ -1,0 +1,1 @@
+<p> Here is a summary of what you have added to your cart</p>
